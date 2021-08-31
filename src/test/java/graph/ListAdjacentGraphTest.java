@@ -4,10 +4,8 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Scanner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -186,7 +184,5 @@ public class ListAdjacentGraphTest {
 
         this.subject.addDirected(2,3);
         assertFalse(this.subject.isBipartite(2));
-
-
     }
 }
